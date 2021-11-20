@@ -1,0 +1,63 @@
+/* CART PRODUCT */
+
+.cart__product {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1 px solid #dadada;
+  }
+  
+  .cart__border {
+    border-bottom: 1px solid #dadada;
+  }
+  
+  .cart__product-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart__product-name {
+    font-size: 1.1rem;
+    padding: 0 20px;
+  }
+  
+  .cart__product-name span {
+    color: #848484;
+    font-weight: 500;
+  }
+  
+  .cart__product-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .cart__product-quantity {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cart__product-input {
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 1rem;
+    border: 1px solid #a9a9a9;
+  }
+  
+  .cart__product-button {
+    padding: 0 10px;
+    cursor: pointer;
+  }
+  
+  .cart__product-discount {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .discount-text {
+    background: #f44336;
+    width: 50%;
+    color: #fff;
+    margin: 0 auto;
+  }
