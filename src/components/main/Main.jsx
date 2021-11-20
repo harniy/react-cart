@@ -35,7 +35,7 @@ export default function Main() {
             <img src={image} alt={name} className="product__card-image" />
             <p className="product__card-name">{name}</p>
             {discount && <p className="product__card-discount">discount</p>}
-            <p className="product__card-price">{price}</p>
+            <p className="product__card-price">{price}$</p>
             <p className="product__card-add" onClick={() => addProduct(id)}>add to cart</p>
           </div>
         ))}
